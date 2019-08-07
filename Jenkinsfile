@@ -4,7 +4,7 @@ agent any
 stages{
     stage('Checkout Code') {
           steps{  
-               git 'https://github.com/BalajiJadahv/soccer-stats.git'
+               git 'https://github.com/BalajiJadahv/TarDemo.git'
                }
            }
     stage('Build Stage'){
