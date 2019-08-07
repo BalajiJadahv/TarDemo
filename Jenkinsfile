@@ -10,7 +10,7 @@ stages{
     stage('Build Stage'){
              steps{
        
-                  sh 'mvn clean assembly:assembly'
+                  sh 'mvn clean assembly:single'
              }   
        }
   }
