@@ -12,7 +12,7 @@ stages{
        
                   sh 'mvn clean assembly:single'
                   stash name: "artifact", includes: "target/**.tar"
-                  echo "Artifact stored is " $artifact
+  //                echo "Artifact stored is " $artifact
              }   
        }
   }
